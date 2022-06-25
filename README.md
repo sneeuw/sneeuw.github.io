@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+# Ephesus
 
-You can use the [editor on GitHub](https://github.com/sneeuw/sneeuw.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Ephesus Jekyll Theme - Simple and Minimal Jekyll Blog Theme
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Author [Hakan Torun](https://hakan.io).
 
-### Markdown
+- **Demo:** https://pardin.us/ephesus/
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Features
 
-```markdown
-Syntax highlighted code block
+- [x] Tiny CSS & No Dependency
+- [x] Responsive Design
+- [x] Dark/Light Theme
+- [x] Custom 404 Page
+- [x] About Page
+- [x] Tags Page
+- [x] Code Highlighter
+- [x] Social Share
+- [x] Atom & Json feeds
+- [x] Robots.txt
+- [x] Sitemap
+- [x] Next & Previous Post
+- [x] Pagination
+- [x] Disqus
+- [x] Mathjax Support
+- [x] Google Analytics
 
-# Header 1
-## Header 2
-### Header 3
+## Screenshots
 
-- Bulleted
-- List
+#### Light
+![light-theme](https://github.com/onepase/Ephesus/blob/master/light.png)
 
-1. Numbered
-2. List
+#### Dark
+![dark-theme](https://github.com/onepase/Ephesus/blob/master/dark.png)
 
-**Bold** and _Italic_ and `Code` text
+## Installation
 
-[Link](url) and ![Image](src)
+Run local server:
+
+```bash
+$ git clone https://github.com/onepase/Ephesus.git
+$ cd Ephesus
+$ bundle install
+$ bundle exec jekyll build
+$ bundle exec jekyll serve
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Navigate to `127.0.0.1:4000`.
 
-### Jekyll Themes
+Tags are created automatically under the /tags page.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sneeuw/sneeuw.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+To use a math formula in a post, use the mathjax:true tag in the post.
 
-### Support or Contact
+## Contributing
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Feel free to open a pull request for contributing.
+
+Please feel free to contribute. Do not hesitate to open a pull request and fix it, please read [contributing](./CONTRIBUTING.md) before PR.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE.md).
