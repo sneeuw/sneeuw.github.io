@@ -5,7 +5,7 @@ author: Seolhee Kim
 layout: post
 permalink: /react-native-VirtualizedLists-should-never-be-nested/
 categories: Log
-tags: ["react native"]
+tags: ["react-native"]
 ---
 - Warning Message:
 ```
